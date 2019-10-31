@@ -10,4 +10,4 @@ RUN mkdir /tmp/composer && \
     (curl -sS https://getcomposer.org/installer | php) && \
     cp composer.phar /usr/local/bin/composer && \
     chmod a+x /usr/local/bin/composer
-RUN echo "10.8.10.234  git.calderholding.nl" >> /etc/hosts
+RUN echo "172.17.0.1  git.calderholding.nl" >> /etc/hosts
